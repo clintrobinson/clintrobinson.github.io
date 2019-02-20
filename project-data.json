@@ -122,12 +122,25 @@
     {
         "project": "House of Rock",
         "project_logo": "../assets/house-of-rock-logo.png",
-        "images": ["../assets/portfolio/leafguru-home.jpg"],
+        "images": [
+            {
+                "url": "/assets/portfolio/houseofrock-home.jpg",
+                "alt": "House of Rock"
+            },
+            {
+                "url": "/assets/portfolio/houseofrock-results.jpg",
+                "alt": "House of Rock"
+            },
+            {
+                "url": "/assets/portfolio/houseofrock-confirm.jpg",
+                "alt": "House of Rock"
+            }
+        ],
         "project_brief": "Leaf Guru is Canada's Cannabis Authority. It is your one-stop for all information pertaining to the legal Canadian cannabis market with news, strain reviews, retailer locations as well as regulatory info.",
         "technology": [
             {
-                "name": "Drupal",
-                "icon": "fab fa-drupal"
+                "name": "Angular",
+                "icon": "fab fa-angular"
             },
             {
                 "name": "Sass",
